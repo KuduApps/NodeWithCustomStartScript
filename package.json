@@ -2,10 +2,8 @@
     "dependencies": {
 		"node-env": "*"
     },
-	
+	"engines": { "node": "~ 0.10.26" },
 	"scripts": {
-		"predeploy": "echo This will be run before deploying the app",
-		"postdeploy": "echo This will be run after deploying the app",
 		"start": "node app/app.js"
     }
 }
