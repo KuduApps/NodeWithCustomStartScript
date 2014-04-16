@@ -1,9 +1,16 @@
 {
-    "dependencies": {
-		"node-env": "*"
+    "name": "NodeWithCustomStartScript",
+	"private": true,
+	"description": "Test Azure deployment with custom start script.",
+	"repository": { 
+	    "type": "git",
+        "url": ""
     },
-	"engines": { "node": "~ 0.10.26" },
-	"scripts": {
-		"start": "node app/app.js"
+    "dependencies": {
+        "node-env": "*"
+    },
+    "engines": { "node": "~ 0.10.26" },
+    "scripts": {
+        "start": "node app/app.js"
     }
 }
