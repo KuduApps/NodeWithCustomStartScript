@@ -6,10 +6,7 @@
 	    "type": "git",
         "url": ""
     },
-    "dependencies": {
-        "node-env": "*"
-    },
-    "engines": { "node": "~ 0.10.26" },
+    "engines": { "node": "~0.10.5" },
     "scripts": {
         "start": "node app/app.js"
     }
